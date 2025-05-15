@@ -32,6 +32,10 @@ pip install -r requirements.txt
 ```
 # GROQ API 설정
 GROQ_API_KEY = "your_groq_api"
+
+# COHERE API 설정정
+COHERE_API_KEY = "your_cohere_api"
 ```
 - .env_example 파일의 이름을 .env로 수정
-- your_groq_api 자리에 groq api 작성 후 저장
+- your_groq_api 자리에 groq api 작성 후 저장 ([groq api key 발급](https://console.groq.com/))
+- your_cohere_api 자리에 cohere api 작성 후 저장 ([cohere api key 발급](https://dashboard.cohere.com/api-keys))
